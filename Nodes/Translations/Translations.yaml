@@ -1,0 +1,20 @@
+Name: Translations
+Type: TranslationsCategoryFolder
+Children:
+- Name: LocalizationDictionary1
+  Id: g=c3cd0bff0cc621bbabdf43323371677b
+  Type: LocalizationDictionary
+  DataType: String
+  ValueRank: OneOrMoreDimensions
+  ArrayDimensions: [0,0]
+  Value: 
+   {
+    "Type": 12,
+    "Dimensions": [4,4],
+    "Body": [
+     "","en-US","es-MX","it-IT",
+     "pippo","hello","","",
+     "pluto","","buenos días","",
+     "paperino","","","arrivederci"
+    ]
+   }

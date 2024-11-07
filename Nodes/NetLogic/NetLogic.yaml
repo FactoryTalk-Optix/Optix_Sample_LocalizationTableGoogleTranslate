@@ -1,0 +1,21 @@
+Name: NetLogic
+Type: NetLogicCategoryFolder
+Children:
+- Name: GoogleTranslateLogic
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Name: LocalizationDictionary
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Optix_Sample_LocalizationTableGoogleTranslate/Translations/LocalizationDictionary1"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/VariableTypes/BaseVariableType/LocalizationDictionary"
+  - Class: Method
+    Name: TranslateMissingKeys
