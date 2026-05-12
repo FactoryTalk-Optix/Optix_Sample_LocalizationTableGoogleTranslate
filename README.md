@@ -1,5 +1,8 @@
 # GoogleTranslateLogic
 
+> [!NOTE]
+> This project is using a deprecated NuGet package with frequent errors, from now on, this repository will be labelled as deprecated
+
 ## Overview
 
 `GoogleTranslateLogic` is a NetLogic designed to translate missing keys in a localization dictionary of FactoryTalk Optix using the Google Translate API. This class leverages the `GTranslate` NuGet package to perform translations.
